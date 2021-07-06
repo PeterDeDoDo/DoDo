@@ -257,7 +257,7 @@ function dodo_add_string(){
             <div class="bubble"></div>
             <div class="bubble"></div>
         </div>
-    </div
+    </div>
 
     <style>
 
@@ -267,16 +267,17 @@ function dodo_add_string(){
     }
 
     .bubble {
-    position: absolute;
-    left: var(--bubble-left-offset);
-    bottom: -75%;
-    display: block;
-        z-index:9999;
-        background-color:white;
-    width: var(--bubble-radius);
-    height: var(--bubble-radius);
-    border-radius: 50%;
-    animation: float-up var(--bubble-float-duration) var(--bubble-float-delay) ease-in infinite;
+        opacity:0.5;
+        position: absolute;
+        left: var(--bubble-left-offset);
+        bottom: -75%;
+        display: block;
+            z-index:9999;
+            background-color:white;
+        width: var(--bubble-radius);
+        height: var(--bubble-radius);
+        border-radius: 50%;
+        animation: float-up var(--bubble-float-duration) var(--bubble-float-delay) ease-in infinite;
     }
     .bubble::before {
     position: absolute;
