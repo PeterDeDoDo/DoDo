@@ -257,9 +257,7 @@ function dodo_add_string(){
             <div class="bubble"></div>
             <div class="bubble"></div>
         </div>
-
-    </div>
-
+    </div
 
     <style>
 
